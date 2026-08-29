@@ -1,0 +1,17 @@
+### Spring Boot Application Health Check
+GET http://localhost:8080/actuator/health
+Content-Type: application/json
+
+###
+### Basic API Test
+GET http://localhost:8080/
+Content-Type: application/json
+
+###
+### Database Connection Test (once you create endpoints)
+POST http://localhost:8080/api/test
+Content-Type: application/json
+
+{
+  "message": "Testing database connection"
+}
