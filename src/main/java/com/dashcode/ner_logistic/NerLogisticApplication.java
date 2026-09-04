@@ -18,8 +18,8 @@ public class NerLogisticApplication {
 	@GetMapping("/api/health")
 	public Map<String, String> health() {
 		return Map.of(
-				"status", "OK",
-				"service", "NER Smart Logistics Backend"
+			"status", "OK",
+			"service", "NER Smart Logistics Backend"
 		);
 	}
 
